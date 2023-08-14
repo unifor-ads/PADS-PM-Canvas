@@ -35,6 +35,7 @@ h6.card-subtitle {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	border-bottom: whitesmoke solid 2px;
 
 	.row {
 		align-items: center;
@@ -101,6 +102,37 @@ h6.card-subtitle {
 	}
 }
 
+.column-header {
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	margin-bottom: 0.2rem;
+	border: 1px;
+	border-radius: 0.4rem;
+	text-align: center;
+	border: rgb(173, 173, 173) solid 1px;
+}
+
+.column-header.azul {		
+	background-color: #31b7b7;
+}
+
+.column-header.roxo {		
+	background-color: #5653b0;
+}
+
+.column-header.vermelho {		
+	background-color: #b8382c;
+}
+
+.column-header.amarelo {		
+	background-color: #c18a31;
+}
+
+.column-header.verde {		
+	background-color: #358839;
+}
+
 .v-auto {
 	flex: 0 1 auto;
 }
@@ -111,6 +143,10 @@ h6.card-subtitle {
 
 .w-40 {
 	width: 40%;
+}
+
+.w-20 {
+	width: 20% !important;
 }
 
 .last-child {
