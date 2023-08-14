@@ -1,0 +1,125 @@
+p {
+	font-size: 0.8rem;
+	margin-bottom: 0.2rem;
+	line-height: initial;
+}
+
+li {
+	font-size: 0.8rem;
+	background-color: #00ffff00 !important;
+	line-height: initial;
+	padding-top: 0.1rem !important;
+	padding-bottom: 0.1rem !important;
+}
+
+ul {
+	margin-bottom: 0.2rem;
+}
+
+.card {
+	padding: 0.4rem !important;
+	margin-bottom: 0.2rem;
+}
+
+h5.card-title {
+	font-size: 0.9rem;
+	margin-bottom: 0px;
+}
+
+h6.card-subtitle {
+	font-size: 0.8rem;
+	margin-bottom: 0px;
+}
+
+.card-head {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	.row {
+		align-items: center;
+	}
+}
+
+.card-body {
+	padding: 0px;
+	text-align: justify;
+}
+
+.card-icon {
+	font-size: 1.5rem;
+	padding: 0px;
+	padding-right: 0.4rem;
+	text-align: right;
+	width: 2rem !important;
+	float: left;
+}
+
+.card-herders-text {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+
+.azul {
+	background-color: #BFF5F4;
+
+	.card-head {
+		color: #31b7b7 !important;
+	}
+}
+
+.roxo {
+	background-color: #DCDCFD;
+
+	.card-head {
+		color: #5653b0 !important;
+	}
+}
+
+.vermelho {
+	background-color: #FFD8D6;
+
+	.card-head {
+		color: #b8382c !important;
+	}
+}
+
+.amarelo {
+	background-color: #FFECD1;
+
+	.card-head {
+		color: #c18a31 !important;
+	}
+}
+
+.verde {
+	background-color: #D4EBD5;
+
+	.card-head {
+		color: #358839 !important;
+	}
+}
+
+.v-auto {
+	flex: 0 1 auto;
+}
+
+.v-remaining {
+	flex: 1 1 auto;
+}
+
+.w-40 {
+	width: 40%;
+}
+
+.last-child {
+	flex: 1 1 100%;
+}
+
+.card-herders-text {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: center;
+}
