@@ -159,3 +159,7 @@ h6.card-subtitle {
 	flex-direction: column;
 	justify-content: center;
 }
+
+.min-40 {
+	min-width: 40% !important;
+}
